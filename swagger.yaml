@@ -96,23 +96,23 @@ paths:
                 - loginType
                 - email
                 - password
-  /auth/logout:
-    post:
-      tags:
-        - authentication
-      summary: logout from apps
-      responses:
-        '200':
-          description: Logout success
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                required:
-                  - message
+  # /auth/logout:
+  #   post:
+  #     tags:
+  #       - authentication
+  #     summary: logout from apps
+  #     responses:
+  #       '200':
+  #         description: Logout success
+  #         content:
+  #           application/json:
+  #             schema:
+  #               type: object
+  #               properties:
+  #                 message:
+  #                   type: string
+  #               required:
+  #                 - message
   /auth/registeruser:
     post:
       tags:
